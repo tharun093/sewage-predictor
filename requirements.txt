@@ -2,5 +2,5 @@ flask
 flask_session
 gunicorn
 numpy==1.17.4
-matplotlib==1.13.0
+matplotlib==3.2.1
 pandas==1.13.0
