@@ -22,13 +22,6 @@ def predict():
 
     return render_template('result.html', prediction_text='Bio gas Unit {}'.format(output))
 
-@app.route('/dataset')
-def data():
-    return render_template('data.html')
-@app.route('/about')
-def about():
-    return render_template('about.html')
-
 
 if __name__ == "__main__":
     app.run(debug=True)
